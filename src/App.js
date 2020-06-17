@@ -1,12 +1,16 @@
 import React from 'react';
 import './App.css';
-import Cart from '../src/containers/Cart'
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Navbar from './components/Navbar';
+
 function App() {
   return (
-    <div>
-      <Cart/>
-    </div>
-    
+    <BrowserRouter>
+      <Navbar />
+      <Switch>
+        <Route exact path="/" component="" />
+      </Switch>
+    </BrowserRouter>
   );
 }
 
