@@ -1,10 +1,26 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+import logo from '../assets/logo_nav.png';
+import cart from '../assets/cart.png';
 
 const Navbar = () => {
     return (
-        <div>
-            
-        </div>
+        <nav className="navbar navbar-light" style={{ background: "purple" }}>
+            <Link to="/" className="navnavbar-brand">
+                <img src={logo} width="30" height="30" alt="" loading="lazy" />
+            </Link>
+
+            <div className=" row justify-content-end">
+                <Link to="/create-task" className="nav-link text-light">INICIO</Link>
+                <Link to="/create-task" className="nav-link text-light">NOSOTROS</Link>
+                <Link to="/create-task" className="nav-link text-light">PRODUCTOS</Link>
+                <Link to="/create-task" className="nav-link text-light">CONTACTOS</Link>
+                <Link to="/create-task" className="nav-link text-light">
+                    <img src={cart} width="30" height="30" alt="" loading="lazy" />
+                </Link>
+            </div>
+
+        </nav >
     )
 }
 
