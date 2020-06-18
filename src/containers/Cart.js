@@ -8,8 +8,8 @@ const Cart = () => {
 
     const getProducts = () => {
 
-        const ENDPOINT = ' ';
-        axios.get(ENDPOINT).then(response => setProducts(response)).catch(e => alert(e));
+        const ENDPOINT = 'https://devf-665f3.firebaseio.com/Clientes/productos.json';
+        axios.get(ENDPOINT).then(response => setProducts(response.data)).catch(e => alert(e));
 
     }
 
