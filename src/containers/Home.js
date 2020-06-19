@@ -7,7 +7,6 @@ const Home = () => {
         <div className="container">
             <section className="fondo">
                 <div className="contenedor">
-
                     <div className="contenedor_texto">
                         <p className="texto_eugenia">Eugenia</p>
                         <p className="texto_inicio">PASTELERIA <br /> CETOGENICA</p>
