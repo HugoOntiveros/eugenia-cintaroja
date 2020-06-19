@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
-*{
+
+* {
   font-family: 'Noto Serif', serif !important;
 }
 
-h2{
+h2 {
   font-family: 'Pacifico', cursive;
 }
 
-.Cart{
-  margin: 100px;
+.Cart {
+  padding: 200px;
 }
