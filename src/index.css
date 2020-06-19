@@ -1,12 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Pacifico&display=swap');
 *{
   font-family: 'Noto Serif', serif !important;
 }
 
 h2{
-  font-family: 'Pacifico', cursive;
+  color:#ffd600;
+  font-family: 'Pacifico', cursive !important;
+  font-size: 30px;
 }
 
 .Cart{
   margin: 100px;
+}
+
+.producto{
+  border: 2px solid #6d2b70;
+  margin: 12px  10px;
+  padding: 7px 5px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ align-items: center;
+}
+
+.productoPopular{
+  border: 2px solid #6d2b70;
+  margin: 12px  10px;
+  padding: 7px 5px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ align-items: center;
+}
+
+.bg-purple{
+  background-color: #6d2b70;
 }
