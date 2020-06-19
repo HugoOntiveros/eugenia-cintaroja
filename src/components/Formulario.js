@@ -7,20 +7,20 @@ const Formulario = () => {
                 <div classNameName="form-row">
                     <div className="form-group col-md-6">
                         <label for="name">Nombre</label>
-                        <input type="name" className="form-control" id="name" />
+                        <input type="text" className="form-control" id="First name" />
                     </div>
                     <div className="form-group col-md-6">
                         <label for="iEmail4nput">e-mail</label>
-                        <input type="email" className="form-control" id="ejemplo@don.com"placeholder="ejemplo@xxx.com" />
+                        <input type="email" className="form-control" id="ejemplo@don.com"placeholder="email" />
                     </div>
                 </div>
                 <div className="form-group">
                     <label for="inputAddress">Teléfono</label>
-                    <input type="text" className="form-control" id="inputAddress" placeholder="52 + codigo de tu ciudad" />
+                    <input type="text" className="form-control" id="inputAddress" placeholder="telephon" />
                 </div>
                 <div className="form-group">
                     <label for="inputAddress2">Dirección</label>
-                    <input type="text" className="form-control" id="inputAddress2" placeholder="Calle No. y Colonia" />
+                    <input type="text" className="form-control" id="inputAddress" placeholder="Apartment, studio, or floor" />
                 </div>
                 <div className="form-row">
                     <div className="form-group col-md-6">

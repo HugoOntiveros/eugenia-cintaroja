@@ -1,0 +1,82 @@
+*{
+
+    font-family: 'Noto Serif', serif;    
+}
+
+.nav-item > a:hover {
+  color : #ffd600!important;
+}
+
+.fondo {
+    background-color: #933798;
+    width: 100%;
+    height: 780px;
+    min-height: 100vh;
+}
+
+.contenedor {
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.contenedor_texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.texto_eugenia {
+    color:#ffd600;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+
+
+.texto_inicio{
+    color: white;
+    font-size: 60px;
+    text-align:center;   
+}
+
+.boton_COMPRAR {
+    padding: 7px 25px;
+    font-weight: 300;
+    font-size: 25px;
+    color: #6d2b70;
+    background-color: #ffd600;
+    border-radius: 45px;
+    margin-bottom: 40px;
+}
+
+.pastel{
+    width: 600px;
+}
+
+@media screen and (max-width: 600px) {
+    .pastel {
+        flex: 100%;
+        max-width: 100%;
+    }
+    }
+
+    @keyframes yourAnimation {
+    0% {
+        transform:rotate(10deg) translateX(700px);
+    }
+
+    100% {
+        transform: rotate(0deg) translateX(0px);
+    }
+}
+
+.pastel {
+    animation: yourAnimation 0.7s forwards 0s ease-out;
+}
+
