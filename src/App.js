@@ -1,4 +1,4 @@
-import React from 'react';
+import React  from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './containers/Home';
 import FormularioContainer from './containers/FormularioContainer';
@@ -10,7 +10,9 @@ import './containers/home.css';
 import './App.css';
 
 
+
 function App() {
+
   return (
     <BrowserRouter>
       <Navbar />  
@@ -23,6 +25,7 @@ function App() {
         <Route component={NotFoundContainer} />
       </Switch>
     </BrowserRouter>
+
   );
 }
 

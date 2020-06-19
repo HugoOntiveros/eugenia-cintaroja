@@ -3,6 +3,8 @@ import Formulario from '../components/Formulario';
 import Banner from '../components/Banner';
 
 
+
+
 const FormularioContainer = () => {
     const [banner, setBanner] = useState(false)
     useEffect(() => { 
@@ -11,7 +13,6 @@ const FormularioContainer = () => {
         }, 5000 )
     },[])
 
-
     return (
 
         <div className="container bg-warning">
@@ -19,6 +20,7 @@ const FormularioContainer = () => {
                 <h2>¿ Que deseas ordenar hoy ?</h2>
              { banner && <Banner />}
             </div>
+            <button></button>
             <Formulario />
         </div>
 

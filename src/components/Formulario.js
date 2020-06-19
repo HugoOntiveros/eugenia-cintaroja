@@ -60,12 +60,6 @@ const Formulario = () => {
 
 
 
-
-
-
-
-
-
         </div>
     )
 }
