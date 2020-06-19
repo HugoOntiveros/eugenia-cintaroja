@@ -14,7 +14,7 @@ const Home = () => {
                         <button type="button" className="btn " style={{ background: "#ffd600" }}
                             data-toggle="modal"
                             data-target="#exampleModalCenter">
-                            Pasteleria Eugenia
+                            Hace un Pedido
                         </button>
                     </div>
 
