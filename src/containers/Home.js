@@ -13,7 +13,7 @@ const Home = () => {
                         <button type="button" className="btn " style={{ background: "#ffd600" }}
                             data-toggle="modal"
                             data-target="#exampleModalCenter">
-                            Hace un Pedido
+                            Hacer un Pedido
                         </button>
                     </div>
 
