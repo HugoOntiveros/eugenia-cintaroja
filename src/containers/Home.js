@@ -7,14 +7,13 @@ const Home = () => {
         <div className="container">
             <section className="fondo">
                 <div className="contenedor">
-
                     <div className="contenedor_texto">
                         <p className="texto_eugenia">Eugenia</p>
                         <p className="texto_inicio">PASTELERIA <br /> CETOGENICA</p>
                         <button type="button" className="btn " style={{ background: "#ffd600" }}
                             data-toggle="modal"
                             data-target="#exampleModalCenter">
-                            Pasteleria Eugenia
+                            Hacer un Pedido
                         </button>
                     </div>
 
